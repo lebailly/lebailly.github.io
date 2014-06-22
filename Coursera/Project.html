@@ -188,7 +188,7 @@ hljs.initHighlightingOnLoad();
 <pre><code class="r">pml_training &lt;- read.csv(&quot;pml-training.csv&quot;, na.strings = c(&quot;NA&quot;, &quot;&quot;))
 </code></pre>
 
-<p>This data set has 159 covariets.  However there is also missing data.  For this project I am going to ignore columns with missing data.  Certainly one could argue this is not the best approach, but with 159 covariets there should be enough left over to produce a good machine learning algorithm (and if not we can go back and work with the missing data).</p>
+<p>This data set has 159 covariate.  However there is also missing data.  For this project I am going to ignore columns with missing data.  Certainly one could argue this is not the best approach, but with 159 covariate there should be enough left over to produce a good machine learning algorithm (and if not we can go back and work with the missing data).</p>
 
 <pre><code class="r"># Selects only complete columns
 NAs &lt;- apply(pml_training, 2, function(x) sum(is.na(x)))
@@ -199,7 +199,7 @@ Remove &lt;- grep(&quot;timestamp|X|user_name|new_window&quot;, names(CompleteDa
 CompleteData &lt;- CompleteData[, -Remove]
 </code></pre>
 
-<p>Next lets partition this data.  First lets put 20% of the data aside so it can be used to produce an out of sample error estimate.  Of the remaining data, lets take 30% of the data to produce a training data set and the other 70% to make a cross-validation data set (which we&#39;ll use to compare models).  Normally these are not the prcentages we&#39;d use, however it set this way to spend up training.  Note that we can adjust this percentage if we desire with out affecting the data we set aside.</p>
+<p>Next lets partition this data.  First lets put 20% of the data aside so it can be used to produce an out of sample error estimate.  Of the remaining data, lets take 30% of the data to produce a training data set and the other 70% to make a cross-validation data set (which we&#39;ll use to compare models).  Normally these are not the percentages we&#39;d use, however it is set this way to speed up training.  Note that we can adjust this percentage if we desire with out affecting the data we set aside.</p>
 
 <pre><code class="r">library(caret)
 </code></pre>
@@ -224,7 +224,7 @@ TrainData &lt;- RemainingData[TrainIndex, ]
 CVData &lt;- RemainingData[-TrainIndex, ]
 </code></pre>
 
-<p>This data has 53 covariets.  Lets try a PCA compression preserving 95% of the data.</p>
+<p>This data has 53 covariate.  Lets try a PCA compression preserving 95% of the data.</p>
 
 <pre><code class="r">preProc &lt;- preProcess(subset(TrainData, select = -classe), method = &quot;pca&quot;, thresh = 0.95)
 TrainDataPCA &lt;- predict(preProc, subset(TrainData, select = -classe))
@@ -232,11 +232,11 @@ CVDataPCA &lt;- predict(preProc, subset(CVData, select = -classe))
 ErrAnalDataPCA &lt;- predict(preProc, subset(ErrAnalData, select = -classe))
 </code></pre>
 
-<p>The PCA data has 27 covariets.  This has reduced the amount of data by about a factor of 2 while preserving most of the data.  This should help sped up training so we can try multiple models.</p>
+<p>The PCA data has 27 covariate.  This has reduced the amount of data by about a factor of 2 while preserving most of the data.  This should help speed up training so we can try multiple models.</p>
 
 <h2>Model Training and Selection</h2>
 
-<p>First lets set the random number seed to ensure that the model produced here is reporduceable.  Next lets pick a handful of machine learnign models to try.  There are a number of models mentioned in this course.  To get the most variety lets try a decision tree (rpart), a bagging algorithm (treebag), a random forest, a boosting alogirhtm (Gradient boosting), and linear discreminat analysis.</p>
+<p>First lets set the random number seed to ensure that the model produced here is reproducible.  Next lets pick a handful of machine learning models to try.  There are a number of models mentioned in this course.  To get the most variety lets try a decision tree (rpart), a bagging algorithm (treebag), a random forest, a boosting algorithm (Gradient boosting), and linear discriminate analysis.</p>
 
 <pre><code class="r">library(randomForest)
 </code></pre>
@@ -285,7 +285,7 @@ modFit4 &lt;- train(TrainData$classe ~ ., data = TrainDataPCA, method = &quot;gb
 <pre><code>## Loading required package: MASS
 </code></pre>
 
-<p>When these models are created they include an accuracy score.  However this is just formed from testing the algorithm against the data is used to train.  This is an overestimate of how well it&#39;ll preform on new data.  To get a better comparision between models, its best to use another data set.  Hence we&#39;ll use the cross-validation data set to compare models.</p>
+<p>When these models are created they include an accuracy score.  However this is just formed from testing the algorithm against the data is used to train.  This is an overestimate of how well it&#39;ll preform on new data.  To get a better comparison between models, its best to use another data set.  Hence we&#39;ll use the cross-validation data set to compare models.</p>
 
 <pre><code class="r">Pred1 &lt;- predict(modFit1, CVDataPCA)
 confusionMatrix(Pred1, CVData$classe)$overall
@@ -337,7 +337,7 @@ confusionMatrix(Pred5, CVData$classe)$overall
 ##      0.000e+00     1.198e-163
 </code></pre>
 
-<p>Looking at the confusion matrices, it is clear that the random forest has peformed the best.  However, we have now used this cross-validiation data to tune our machine learning model.  Hence it is not a fair estimate of the out of sample error.</p>
+<p>Looking at the confusion matrices, it is clear that the random forest has performed the best.  However, we have now used this cross-validation data to tune our machine learning model.  Hence it is not a fair estimate of the out of sample error.</p>
 
 <h2>Estimate of Model Error</h2>
 
@@ -360,14 +360,14 @@ confusionMatrix(Pred, ErrAnalData$classe)$overall
 <pre><code class="r">pml_testing &lt;- read.csv(&quot;pml-testing.csv&quot;, na.strings = c(&quot;NA&quot;, &quot;&quot;))
 </code></pre>
 
-<p>Now lets apply the same preprocessing that we used on the training set.  First we&#39;ll use the <code>NAs</code> vector (which we computed earlier) to select the complete columns, then we&#39;ll use the <code>Remove</code> vector to remove the remainng unwated columns.  Finally we use the <code>preProc</code> object created earlier to apply PCA to this new data.</p>
+<p>Now lets apply the same preprocessing that we used on the training set.  First we&#39;ll use the <code>NAs</code> vector (which we computed earlier) to select the complete columns, then we&#39;ll use the <code>Remove</code> vector to remove the remaining unwanted columns.  Finally we use the <code>preProc</code> object created earlier to apply PCA to this new data.</p>
 
 <pre><code class="r">ProjectTestData &lt;- pml_testing[, which(NAs == 0)]
 ProjectTestData &lt;- ProjectTestData[, -Remove]
 ProjectTestDataPCA &lt;- predict(preProc, subset(ProjectTestData, select = -problem_id))
 </code></pre>
 
-<p>Now that we have preprocessed this data (using the methods established in model training),we can now perform predicitons.</p>
+<p>Now that we have preprocessed this data (using the methods established in model training),we can now perform predictions.</p>
 
 <pre><code class="r">answers &lt;- as.character(predict(modFit3, ProjectTestDataPCA))
 
@@ -381,7 +381,7 @@ for (i in 1:n) {
 setwd(&quot;..&quot;)
 </code></pre>
 
-<p>Upon submiting this to Coursera, this model got 17/20 right.</p>
+<p>Upon submitting this to Coursera, this model got 17/20 right.</p>
 
 </body>
 
