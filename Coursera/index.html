@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BMI and Diabities Risk Score Calculator</title>
+  <title>BMI and Diabetes Risk Score Calculator</title>
   <meta charset="utf-8">
-  <meta name="description" content="BMI and Diabities Risk Score Calculator">
+  <meta name="description" content="BMI and Diabetes Risk Score Calculator">
   <meta name="author" content="Chris LeBailly">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -32,9 +32,9 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1>BMI and Diabities Risk Score Calculator</h1>
+    <h1>BMI and Diabetes Risk Score Calculator</h1>
     <h2>A Shiny Web App</h2>
-    <p>Chris LeBailly<br/>Coursera Data Science Specilizatoin</p>
+    <p>Chris LeBailly<br/>Coursera Data Science Specialization</p>
   </hgroup>
   <article></article>  
 </slide>
@@ -47,10 +47,11 @@
   </hgroup>
   <article data-timings="">
     <ul>
-<li><p>Type 2 diabities is on the rise, from around 30 million people diagnosed in 1985 to 285 million in 2010.</p></li>
-<li><p>A number of lifestyle factors are known to be important to the development of type 2 diabetes</p></li>
-<li><p>Early detection of lifestyle factors that put a person at risk can help a person make lifestyle changes</p></li>
-<li><p>The objective of <a href="https://lebailly.shinyapps.io/Project/">this shiny web app</a> is to make it easy for people to understand their diabities risk factors.</p></li>
+<li><p>Type 2 diabetes is on the rise, from around 30 million people diagnosed in 1985 to 285 million in 2010.</p></li>
+<li><p>A number of lifestyle factors are known to be important to the development of type 2 diabetes.</p></li>
+<li><p>Early detection of lifestyle factors that put a person at risk can help raise a persons awareness so they start to make lifestyle changes.</p></li>
+<li><p>The objective of <a href="https://lebailly.shinyapps.io/Project/">this shiny web app</a> is to make it easy for people to understand their diabetes risk factors</p></li>
+<li><p>Uses only information easily available to them with out a doctor or lab.</p></li>
 </ul>
 
   </article>
@@ -79,7 +80,7 @@
 <li>Smoking history</li>
 </ul>
 
-<p>The app responds imdeiately to input so users can see how lifestyle changes affects their risk (i.e. if they quit smoking).  Their Body Mass Index and Diabities Risk factor are outputed.</p>
+<p>The app responds immediately to input so users can see how lifestyle changes affects their risk (i.e. if they quit smoking).  Their Body Mass Index and Diabetes Risk factor are outputted.</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -90,13 +91,13 @@
     <h2>Methodology</h2>
   </hgroup>
   <article data-timings="">
-    <p>This applicatoin is based off of <a href="http://reference.medscape.com/calculator/diabetes-risk-score-type-2">this</a> diabetes risk factor calcuator. </p>
+    <p>This application is based off of <a href="http://reference.medscape.com/calculator/diabetes-risk-score-type-2">this</a> diabetes risk factor calculator. </p>
 
 <p>In this app, given the users weight (\(w\)) in pounds and height (\(h\)) in inches, we compute the user&#39;s Body Mass Index (\(BMI\)) using</p>
 
 <p>\[BMI = \frac{703 \cdot w}{h^2} \]</p>
 
-<p>To compute the diabetes risk factor (\(R\)) we need to know the persons sex (\(S\)), if they are taking hypertension medication (\(Rx_{HTN}\)), if they are taking steriod medications (\(Rx_{STR}\)), their age (\(Age\)), their BMI risk (\(BMI_r\)), if a parent or sibling has type 2 diabetes (\(FHM\)), and if they smoke or used to smoke (\(Smk\)). The BMI risk is determed based off of \(BMI\), which this app computes.</p>
+<p>To compute the diabetes risk factor (\(R\)) we need to know the persons sex (\(S\)), if they are taking hypertension medication (\(Rx_{HTN}\)), if they are taking steroid medications (\(Rx_{STR}\)), their age (\(Age\)), their BMI risk (\(BMI_r\)), if a parent or sibling has type 2 diabetes (\(FHM\)), and if they smoke or used to smoke (\(Smk\)). The BMI risk is determined based off of \(BMI\), which this app computes.</p>
 
 <p>\[R = \frac{100}{1+e^\theta}\] 
 \[\theta = 6.322 - S - Rx_{HTN} - Rx_{STR} - 0.063*Age - BMI_r - FHM - Smk\]</p>
