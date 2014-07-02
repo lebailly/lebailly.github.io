@@ -35,4 +35,4 @@ In this project I explore a data from a person wearing a personal activity monit
 
 [1]: http://www.kaggle.com/c/titanic-gettingStarted
 [2]: http://users.soe.ucsc.edu/~karplus/bme205/f13/index.html
-[3]: http://lebailly.github.io/Docs/
+[3]: https://dl.dropboxusercontent.com/u/1444851/ThesisSignedTitle.pdf
