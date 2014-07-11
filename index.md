@@ -21,7 +21,7 @@ My native programing language was C++, however I have not coded in C++ since 200
 
 <font size="5">[Baseball Park Fairness](https://github.com/lebailly/BallParkFairness)</font> - Different ball parks in major league baseball are in different location and have different dimensions.  How fair is this?  This question is addressed using both simulations and data anlysis.  While this work is a recent project, it is based of a paper produced for the HiMCM competition, which was published.
 
-<font size="5">[ML Project](https://github.com/lebailly/MLProject)</font> - In this project I build different machine learnign algorithms to predict the type of movement being preformed using data
+<font size="5">[Exercise Type Predicition](https://github.com/lebailly/MLProject)</font> - Using data form fitness tracking devices (similar to Fit Bits), I use different machine learning algorithms to predict the type of movements.
 
 <font size="5">[FitBit Project](https://github.com/lebailly/RepData_PeerAssessment1)</font> - In this project I explore a data from a person wearing a personal activity monitoring device.
 
