@@ -1,6 +1,6 @@
 # About Me
 
-My name is Chris LeBailly.  I am a life long learner and problem solver.  
+My name is Chris LeBailly.  I am a life long learner and problem solver.
 
 I began this journey as a student.  At [Grinnell College][18] I double majored in mathematics and music, and was close to a third major in physics.  After graduation I worked for two years in the Math Study Center at [Evanston Township High School][4].  I worked with students of varying abilities in mathematics, where I was able to explain the simple ideas of basic algebra to the more advanced underpinnings of Calculus to the more accelerated students.  I left this job to pursue graduate studies at the [University of California, Santa Cruz][6].  While I enjoyed furthering my education, I realized that academia was not my calling professionally and switched to the masters track (where I completed my [masters thesis][3]).
 
