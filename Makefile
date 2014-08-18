@@ -1,14 +1,15 @@
-.PHONY: website, public
+.PHONY: preview, website
+m = Default commit message (from make)
+# Is this bad form?
 
 %.html: %.md
 	pandoc $< -o $@
 
-website: *.html
+preview: *.html
+	open index.html
 
 #m is git commit message
-public: website
+website: *.html
 	git add *.html *.md
 	git commit -m '${m}'
 	git push origin master
-	# Way to make it so only runs if changes?
-	# Test git commit with no -m in test repo
