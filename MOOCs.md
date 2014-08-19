@@ -1,6 +1,8 @@
 # Data Science Specialization
 
-Johns Hopkins University has put together a series of nine courses related to data science.  In addition to these foundational courses, this specialization offered the opportunity to do a capstone project upon competition of the courses.  At the current time, I have completed the foundational courses.  The capstone project has not been offered yet, but I look forward to it once it is available.  More details about the specialization are available [here][0].
+Johns Hopkins University has put together a series of nine courses related to data science.  In addition to these foundational courses, this specialization offered the opportunity to do a capstone project upon competition of the courses.  At the current time, I have completed the foundational courses.  The capstone project has not been offered yet, but I look forward to it once it is available.  More details about the specialization are available [here][0].  
+
+These courses were taught by Jeff Leek, PhD, Roger D. Peng, PhD, Brian Caffo, PhD at Johns Hopkins University (with the exception of Mathemtical Biostatists Boot Camp, which was just taught by Brian Caffo).
 
 * [Mathematical Biostatistics Boot Camp 1][1]
 * [The Data Scientist's Toolbox][2]
@@ -14,11 +16,11 @@ Johns Hopkins University has put together a series of nine courses related to da
 
 # Other Relevant Courses
 
-* [Computing for Data Analysis][10]
-* [Statistical Analysis of fMRI Data][11]
-* [Machine Learning][12]
-* [Statistical Inference][13]
-* [Sabermetrics 101: Introduction to Baseball Analytics][14]
+* [Computing for Data Analysis][10], taught by Roger D. Peng, PhD, Johns Hopkins University
+* [Statistical Analysis of fMRI Data][11], taught by Martin Lindquist, PhD, MSC, Johns Hopkins University
+* [Machine Learning][12], taught by Andrew Ng, Stanford University
+* [Statistical Inference][13], taught by Brian Caffo, PhD, Johns Hopkins University
+* [Sabermetrics 101: Introduction to Baseball Analytics][14], taught by Andy Andres, Boston University
 
 [0]: https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage
 [1]: https://www.coursera.org/records/zJfXL3PZsvMpqqUt

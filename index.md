@@ -49,7 +49,7 @@ Here is my [CV][17] (updated 8/18/2014).
 
 # Contact
 
-You can reach me via e-mail: chris [dot] lebailly [at] gmail [dot] com
+You can reach me via e-mail: chris [dot] lebailly [at] gmail [dot] com 
 
 [1]: http://www.kaggle.com/c/titanic-gettingStarted
 [2]: http://users.soe.ucsc.edu/~karplus/bme205/f13/index.html

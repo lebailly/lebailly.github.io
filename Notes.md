@@ -18,6 +18,11 @@ Masters Thesis (once reworked)
 * Pick up needed skills on my own (i.e. bioinfomratics class)
 
 
+http://www.dougbabcock.com/teaching.php
+
+Add teaching evals
+
+Add blurb about ETHS - consider changing to chronological form?
 
 
 
