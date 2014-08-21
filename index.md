@@ -2,7 +2,7 @@
 
 My name is Chris LeBailly.  I am a life long learner and problem solver.
 
-I began this journey as a student.  At [Grinnell College][18] I double majored in mathematics and music, and was close to a third major in physics.  After graduation I worked for two years in the Math Study Center at [Evanston Township High School][4].  I worked with students of varying abilities in mathematics, where I was able to explain the simple ideas of basic algebra to the more advanced underpinnings of Calculus to the more accelerated students.  I left this job to pursue graduate studies at the [University of California, Santa Cruz][6] where I earned my masters (and wrote a [masters thesis][3]).
+I began this journey as a student.  At Grinnell College I double majored in mathematics and music, and was close to a third major in physics.  After graduation I worked for two years in the Math Study Center at Evanston Township High School.  I worked with students of varying abilities in mathematics, where I was able to explain the simple ideas of basic algebra to the more advanced underpinnings of Calculus to the more accelerated students.  I left this job to pursue graduate studies at the University of California, Santa Cruz where I earned my masters (and wrote a [masters thesis][3]).
 
 Since finishing my masters I have taken [this][2] graduate level course in bioinformatics (through the UCSC Extension Program) to learn about the field and sharpen my programing skills, taken several [Massively Open On-line Courses][5], as well as worked on several independent data projects. I want to make a positive difference in the world, and I am hoping to find a career path where I can use my analytic and programing skills to do this.
 
@@ -27,7 +27,7 @@ My native programing language was C++, however I have not coded in C++ since 200
 
 **Senior Seminar** - In the Spring of 2007 I took a senior seminar class (though I was a junior at the time) which covered representation theory and differences sets.  In this class we had two groups projects.  The [first paper][7] focused on representation theory.  The [second paper][8] focused on difference sets.  Both papers were written with Avram Gottschlich and Trevor Sedberry.
 
-**Mentored Advanced Project** - In the summer of 2006 I did a mentored research project with Professor Keri Kornelson at Grinnell College.  I worked with another student (Ben Backup), where we studied properties of tight frames.  Tight frames are a generalization of an orthonormal basis from linear algebra.  In this project we used a simple geometric approach to study tight frames in the plane, then worked to generalize our results to higher dimensions.  We summarized our results in [this][9] paper.
+**Mentored Advanced Project** - In the summer of 2I did a mentored research project with Professor Keri Kornelson at Grinnell College.  I worked with another student (Ben Backup), where we studied properties of tight frames.  Tight frames are a generalization of an orthonormal basis from linear algebra.  In this project we used a simple geometric approach to study tight frames in the plane, then worked to generalize our results to higher dimensions.  We summarized our results in [this][9] paper.
 
 # Teaching
 
@@ -51,12 +51,14 @@ Here is my [CV][17] (updated 8/18/2014).
 
 You can reach me via e-mail: chris [dot] lebailly [at] gmail [dot] com 
 
+<!-- [4]: http://www.eths.k12.il.us/ -->
+<!--: http://www.ucsc.edu/ -->
+<!-- [18]: http://www.grinnell.edu/ -->
+
 [1]: http://www.kaggle.com/c/titanic-gettingStarted
 [2]: http://users.soe.ucsc.edu/~karplus/bme205/f13/index.html
 [3]: https://dl.dropboxusercontent.com/u/1444851/Website/Thesis.pdf
-[4]: http://www.eths.k12.il.us/
 [5]: MOOCs.html
-[6]: http://www.ucsc.edu/
 [7]: https://dl.dropboxusercontent.com/u/1444851/Website/SeminarPaper1.pdf
 [8]: https://dl.dropboxusercontent.com/u/1444851/Website/SeminarPaper2.pdf
 [9]: https://dl.dropboxusercontent.com/u/1444851/Website/MAPWriteUp.pdf
@@ -68,4 +70,3 @@ You can reach me via e-mail: chris [dot] lebailly [at] gmail [dot] com
 [15]: https://dl.dropboxusercontent.com/u/1444851/Website/Worksheets/TeachingResume.pdf
 [16]: https://dl.dropboxusercontent.com/u/1444851/Website/Worksheets/ProgramingResume.pdf
 [17]: https://dl.dropboxusercontent.com/u/1444851/Website/CV-LeBailly.pdf
-[18]: http://www.grinnell.edu/
