@@ -45,7 +45,7 @@ I worked as a **Teaching Assistant** at UCSC for three years. My role as a TA va
 
 # Resume/CV
 
-Here is my [CV][17] (updated 8/18/2014).
+Here is my [CV][17] (updated 8/26/2014).
 
 # Contact
 
