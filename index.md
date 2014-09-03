@@ -23,7 +23,7 @@ My native programing language was C++, however I have not coded in C++ since 200
 
 # Mathematics
 
-**Masters Thesis** - I studied a phenomena observed in the 17th century by Christian Huygens. He found that two pendulum clocks placed on a common support synchronized over time. I looked a model of this type of coupling.  I looked at what happens when driven pendulums (which can exhibit chaotic behavior) replace the clocks.  My thesis is available [here][10].
+**Masters Thesis** - I studied a phenomena observed in the 17th century by Christian Huygens. He found that two pendulum clocks placed on a common support synchronized over time. I looked a model of this type of coupling.  I also looked at what happens when driven pendulums (which can exhibit chaotic behavior) replace the clocks.  My thesis is available [here][10].
 
 **Senior Seminar** - In the Spring of 2007 I took a senior seminar class (though I was a junior at the time) which covered representation theory and differences sets.  In this class we had two groups projects.  The [first paper][7] focused on representation theory.  The [second paper][8] focused on difference sets.  Both papers were written with Avram Gottschlich and Trevor Sedberry.
 
