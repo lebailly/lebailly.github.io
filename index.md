@@ -27,7 +27,7 @@ My native programing language was C++, however I have not coded in C++ since 200
 
 **Senior Seminar** - In the Spring of 2007 I took a senior seminar class (though I was a junior at the time) which covered representation theory and differences sets.  In this class we had two groups projects.  The [first paper][7] focused on representation theory.  The [second paper][8] focused on difference sets.  Both papers were written with Avram Gottschlich and Trevor Sedberry.
 
-**Mentored Advanced Project** - In the summer of 2I did a mentored research project with Professor Keri Kornelson at Grinnell College.  I worked with another student (Ben Backup), where we studied properties of tight frames.  Tight frames are a generalization of an orthonormal basis from linear algebra.  In this project we used a simple geometric approach to study tight frames in the plane, then worked to generalize our results to higher dimensions.  We summarized our results in [this][9] paper.
+**Mentored Advanced Project** - In the summer of 2006 I did a mentored research project with Professor Keri Kornelson at Grinnell College.  I worked with another student (Ben Backup), where we studied properties of tight frames.  Tight frames are a generalization of an orthonormal basis from linear algebra.  In this project we used a simple geometric approach to study tight frames in the plane, then worked to generalize our results to higher dimensions.  We summarized our results in [this][9] paper.
 
 # Teaching
 
