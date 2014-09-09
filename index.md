@@ -1,4 +1,6 @@
-![Welcome to my Porfoilo!][0]
+<div class="figure">
+<img src="portfolio.jpeg" title="Optional title" alt="Welcome to my Porfoilo!" />
+</div>
 
 # About Me
 
