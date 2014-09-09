@@ -1,4 +1,4 @@
-![Alt text](portfolio.jpeg "Optional title")
+![Welcome to my Porfoilo!][0]
 
 # About Me
 
@@ -57,6 +57,7 @@ You can reach me via e-mail: chris [dot] lebailly [at] gmail [dot] com
 <!--: http://www.ucsc.edu/ -->
 <!-- [18]: http://www.grinnell.edu/ -->
 
+[0]: portfolio.jpeg "Optional title"
 [1]: http://www.kaggle.com/c/titanic-gettingStarted
 [2]: http://users.soe.ucsc.edu/~karplus/bme205/f13/index.html
 [3]: https://dl.dropboxusercontent.com/u/1444851/Website/Thesis.pdf
