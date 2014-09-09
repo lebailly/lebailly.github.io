@@ -1,5 +1,5 @@
 <div class="figure">
-<img src="portfolio.jpeg" title="Optional title" alt="Welcome to my Porfoilo!" />
+<p align="center"><img src="Portfolio.gif" width="30%" height="30%" align="middle" title="Welcome to my Porfoilo!" /></p> 
 </div>
 
 # About Me
