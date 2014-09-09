@@ -1,3 +1,5 @@
+![Alt text](portfolio.jpeg "Optional title")
+
 # About Me
 
 My name is Chris LeBailly.  I am a life long learner and problem solver.
