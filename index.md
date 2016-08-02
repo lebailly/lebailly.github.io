@@ -59,19 +59,19 @@ You can reach me via e-mail: chris [dot] lebailly [at] gmail [dot] com
 <!--: http://www.ucsc.edu/ -->
 <!-- [18]: http://www.grinnell.edu/ -->
 
-[0]: portfolio.jpeg "Optional title"
+[0]: portfolio.jpeg "My Porfolio!"
 [1]: http://www.kaggle.com/c/titanic-gettingStarted
 [2]: http://users.soe.ucsc.edu/~karplus/bme205/f13/index.html
-[3]: https://dl.dropboxusercontent.com/u/1444851/Website/Thesis.pdf
+[3]: pdfs/Thesis.pdf
 [5]: MOOCs.html
-[7]: https://dl.dropboxusercontent.com/u/1444851/Website/SeminarPaper1.pdf
-[8]: https://dl.dropboxusercontent.com/u/1444851/Website/SeminarPaper2.pdf
-[9]: https://dl.dropboxusercontent.com/u/1444851/Website/MAPWriteUp.pdf
-[10]: https://dl.dropboxusercontent.com/u/1444851/Website/Thesis.pdf
+[7]: pdfs/SeminarPaper1.pdf
+[8]: pdfs/SeminarPaper2.pdf
+[9]: pdfs/MAPWriteUp.pdf
+[10]: pdfs/Thesis.pdf
 [11]: math19B.htm
 [12]: http://en.wikipedia.org/wiki/Massive_open_online_course
-[13]: https://dl.dropboxusercontent.com/u/1444851/Website/Worksheets/Integrals.pdf
-[14]: https://dl.dropboxusercontent.com/u/1444851/Website/Worksheets/Series.pdf
-[15]: https://dl.dropboxusercontent.com/u/1444851/Website/Worksheets/TeachingResume.pdf
-[16]: https://dl.dropboxusercontent.com/u/1444851/Website/Worksheets/ProgramingResume.pdf
-[17]: https://dl.dropboxusercontent.com/u/1444851/Website/CV-LeBailly.pdf
+[13]: pdfs/Worksheets/Integrals.pdf
+[14]: pdfs/Worksheets/Series.pdf
+[15]: pdfs/Worksheets/TeachingResume.pdf
+[16]: pdfs/Worksheets/ProgramingResume.pdf
+[17]: pdfs/CV-LeBailly.pdf
