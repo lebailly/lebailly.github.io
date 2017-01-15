@@ -44,6 +44,7 @@ p {
 }
 .bg-primary {
   background-color: #00B9FF;
+  color:black;
 }
 .bg-dark {
   background-color: #222222;
@@ -157,7 +158,7 @@ header {
   background-position: center;
   background-image: url('../img/header.jpg');
   text-align: center;
-  color: white;
+  color: black;
 }
 header .header-content {
   position: relative;
